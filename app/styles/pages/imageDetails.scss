@@ -1,0 +1,59 @@
+.image-details{
+    h1{
+        span{
+            margin-inline-start: 2rem;
+            color: #999;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+    &-content{
+        display: flex;
+        height: 100%;
+        gap: 2rem;
+        img{
+            border-radius: 0.5rem;
+            height: 100%;
+            flex: 1;
+        }
+        .chat{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid black;
+            border-radius: 0.5rem;
+            width: 400px;
+            &-header{
+                background-color: #ccc;
+                font-size: 1.25rem;
+                padding: 0.25rem 0.5rem;
+                border-top-left-radius: 0.5rem;
+                border-top-right-radius: 0.5rem;
+            }
+            .messages{
+                flex: 1;
+            }
+            form{
+                display: flex;
+                gap: 0.5rem;
+                padding: 1rem;
+                input{
+                    flex: 1;
+                    border-radius: 0.5rem;
+                    border: 2px solid #999;
+                    padding: 0.5rem;
+                }
+                button{
+                    border: 0;
+                    font-size: 1.125rem;
+                    font-weight: 700;
+                    border-radius: 0.5rem;
+                    padding: 0.5rem;
+                    background-color: #2042d8;
+                    color: white;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
